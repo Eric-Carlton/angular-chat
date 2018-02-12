@@ -1,4 +1,2 @@
 #! /bin/sh
-npm install
-
-npm run serve -- -H=0.0.0.0 & npm run dev
+npm run serve -- -H=0.0.0.0 --port=4200 & npm run dev
